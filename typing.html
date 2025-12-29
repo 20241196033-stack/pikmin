@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>タイピング<br>ゲーム</h1>
+  <div id="page1" class="page active">
+  <h1>スタート画面</h1>
+  <img src=Download/Screenshot_2025-12-16_9.59.51.png>
+  <button onclick="showPage('page2')">次へ</button>
+</div>
+
+<div id="page2" class="page">
+  <h1>ページ2</h1>
+  <img src=Download/Screenshot_2025-12-16_10.15.16.png>
+  <button onclick="showPage('page1')">戻る</button>
+</div>
+
+
+  <script>
+    function showPage(pageId) {
+      // 全ページを非表示
+      document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+      // 指定したページだけ表示
+      document.getElementById(pageId).classList.add('active');
+    }
+  </script>
+</body>
+</html>

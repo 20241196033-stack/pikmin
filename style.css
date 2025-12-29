@@ -1,0 +1,12 @@
+
+.page {
+  display: none;   /* 基本は非表示 */
+}
+
+.active {
+  display: block;  /* 表示するページだけこのクラスを付ける */
+}
+body {
+  background-color: #f0f0f0;
+  font-family: sans-serif;
+}

@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    background-color: #d0f0c0;
+    overflow: hidden;
+}
+
+.red_pikmin {
+  width: 60px;
+  height: 60px;
+  background-image: url("./aka.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.red_onion {
+  width: 120px;
+  height: 120px;
+  background-image: url("./onion.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  left: 50px;
+}
+
+.ice_pikmin {
+  width: 120px;
+  height: 120px;
+  background-image: url("./ice.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.brittany {
+  width: 120px;
+  height: 120px;
+  background-image: url("./burtony.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  left: 300px;
+}
+
+.iceonion {
+  width: 80px;
+  height: 120px;
+  background-image: url("./koori.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  left: 50px;
+}
+.blueonion {
+  width: 50px;
+  height: 120px;
+  background-image: url("./ao.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  left: 50px;
+}
+.blue_pikmin {
+  width: 50px;
+  height: 120px;
+  background-image: url("./bluepiku.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 50px;
+}
+.enemy {
+  width: 120px;
+  height: 120px;
+  background-image: url("./goldshot.png"); /* ← ここを敵の画像名に合わせてね */
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+}
+
